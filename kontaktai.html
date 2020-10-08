@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="lt" lang="lt">
+
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Bankroto ir verslo konsultacijų centras</title>
+    
+    <!--<base href="http://www.bankroto-konsultacijos.lt/" />-->
+    <meta name="keywords" content="Bankroto konsultacijos, UAB Bankroto ir verslo konsultacijų centras, bankrotas, administravimas, administratorius, skolos, išsieškojimas, teisė, teisinė pagalba, turtas, pardavimas, varžytinės, centras, konsultacijos, konsultavimas, specialistas, paslaugos, išieškojimas" />
+    <meta name="description" content="Bankroto administratorius greitai ir sklandžiai vykdantis bankroto procedūrą, besirūpinantis kreditorių ir bankrutuojančių asmenų interesais ir profesionaliai teikiantis teisines paslaugas" />    
+	<meta name="author" content="shark">
+    <meta name="robots" content="noindex,nofollow" />
+    <!--[if IE]>
+    <meta http-equiv="imagetoolbar" content="false" />
+    <meta name="MSSmartTagsPreventParsing" content="true" />
+    <![endif]-->
+    <link rel="shortcut icon" href="images/favicon.ico">
+	
+    <link rel="stylesheet" rev="stylesheet" href="css/screen.css" type="text/css" media="screen" charset="utf-8" />    
+	
+        
+    <script type="text/javascript" src="framework/scripts/vendors/jquery/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+<script type="text/javascript" src="framework/scripts/vendors/jquery/plugins/maskedinput/jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="framework/scripts/vendors/jquery/plugins/ui-1.10.3/jquery.ui.core.min.js"></script>
+<script type="text/javascript" src="framework/scripts/vendors/jquery/plugins/ui-1.10.3/jquery.ui.datepicker.min.js"></script>
+<script type="text/javascript" src="framework/scripts/ui.datepicker.php_language=lt.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="framework/scripts/vendors/jquery/plugins/ui-1.10.3/themes/base/jquery.ui.all.css" />
+
+
+</head>
+
+<body>
+
+	<!-- wrapper starts -->
+	<div class="wrapper"> 
+	  
+	  <!-- Header Starts -->
+	  <div class="header">
+		<div class="header-container">
+		  <div class="logo"> <a href="index.html">Bankroto ir verslo konsultacijų centras</a> </div>
+		  <div class="toll-free">
+			<p>Susisiekite telefonu: +370 662 366 77</p>
+		  </div>
+		  <div class="clear"></div>
+		</div>
+	  </div>
+	  <!-- Header ends --> 
+	  
+	  <!-- Nav start -->
+	  <div class="nav">
+<div class="nav-in">
+  <ul>
+		<li class="last"><a href="juridiniu-asmenu-bankrotas.html" >Juridinių asmenų bankrotas </a></li>
+		<li><a href="fiziniu-asmenu-ir-ukininku-bankrotas.html" >Fizinių asmenų bankrotas </a></li>
+		<li><a href="apie-mus.html" >Teisinės paslaugos </a></li>
+		<li class="no_bg ped"><a href="kontaktai.html"  class="active">Kontaktai </a></li>
+	  </ul>
+  <div class="clear"></div>
+</div>
+</div>
+	  <!-- Nav end --> 
+	  
+	  <!-- maincontent Starts -->
+	  <div class="content">
+		  <div class="container">
+			<div class="container-in"> 
+				<div class="title">
+	<h2>Kontaktai</h2>
+	<a class="print" href="" title="Į pradžią">Į pradžią</a>
+	<div class="clear"><!-- clear --></div>
+</div>
+<div class="text">
+<script type="text/javascript">
+
+function checkFormRules(formId)
+{
+    for(var inputId in formRules[formId])
+    {
+        jQuery('#form-input-block-' + formId + '-' + inputId).hide();
+        
+        for(var rulesetId = 0; rulesetId < formRules[formId][inputId].length; rulesetId++)
+        {
+            var show = true;    
+            
+            for(var ruleId = 0; ruleId < formRules[formId][inputId][rulesetId].length; ruleId++)
+            {
+                var ruleOperator = ruleOperators[formRules[formId][inputId][rulesetId][ruleId].operator];
+                
+                show = show && ruleOperator(getInputValue(formId, formRules[formId][inputId][rulesetId][ruleId].id), formRules[formId][inputId][rulesetId][ruleId].value);
+            } 
+            
+            if(show)
+            {
+                jQuery('#form-input-block-' + formId + '-' + inputId).show();
+            } 
+        }  
+    }    
+}
+function getInputValue(formId, inputId)
+{
+    if(inputId < 0)
+    {
+        return getDefinedValue(inputId);
+    }
+    else
+    {
+        var input = jQuery('#form-input-' + formId + '-' + inputId);
+        
+        if(input.attr('type') == 'checkbox')
+        {
+            return input.val() * input.get(0).checked;
+        }
+        else
+        {
+            return input.val();
+        }
+    }
+}
+function getDefinedValue(inputId)
+{
+    switch(inputId)
+    {
+        case -999:
+            return 'http://www.bankroto-konsultacijos.lt/';
+            break;
+            
+        default:
+            return '';
+    }
+}
+var ruleOperators = {
+    isEqual: function(value, compare)
+    {
+        return value == compare;
+    },    
+    isNotEqual: function(value, compare)
+    {
+        return value != compare;
+    },   
+    isLike: function(value, compare)
+    {
+        return value.search(compare) != -1;
+    },    
+    isEmpty: function(value, compare)
+    {
+        return value == '';
+    },    
+    isNotEmpty: function(value, compare)
+    {
+        return value != '';
+    },    
+    isLessThan: function(value, compare)
+    {
+        return value < compare;
+    },    
+    isLessOrEqualTo: function(value, compare)
+    {
+        return value <= compare;
+    },    
+    isGreaterThan: function(value, compare)
+    {
+        return value > compare;
+    },    
+    isGreaterOrEqualTo: function(value, compare)
+    {
+        return value >= compare;
+    }
+};
+    
+</script>
+
+<script type="text/javascript">
+
+jQuery(function() {
+    if(typeof(formRules) == 'undefined')
+    {
+        formRules = new Array();
+    }
+    formRules[1] = new Array();
+        checkFormRules(1);
+});
+
+</script>
+
+
+
+
+
+    <div id="form_1_container">
+    
+                                
+      
+      <p>Jeigu turite klausimų rašykite:&nbsp;info@bankroto-konsultacijos.lt.</p>
+
+<p>Arba skambinkite telefonu:&nbsp;<span style="line-height: 1.6;">+370 662 366 77</span></p>
+
+<p><strong><span style="line-height: 1.6;">Bankroto ir verslo konsultacijų centras, UAB</span></strong></p>
+
+<p>Įmonės kodas: 302652787</p>
+
+<p>Buveinės adresas:<u> Gedimino g. 30-1A LT -44319 Kaunas, Kauno m. sav.&nbsp;</u></p>
+
+<p>Mus rasite <a href="http://www.maps.lt/map/default.aspx?lang=lt#obj=494963;6084358;Pa%C5%BEym%C4%97tas%20ta%C5%A1kas;&amp;xy=494958,6084334&amp;z=5000&amp;lrs=vector,stops,zebra,vector_2_5d">čia.</a></p>
+      
+	  
+	  	  	  
+	  	  
+      <form id="form_1" name="form_1" method="post" action="kontaktai.html" enctype="multipart/form-data">
+
+            <div id="form-input-block-1-1" class="form-group ">
+                        <label for="form-input-1-1">
+    <span>*</span>    Vardas, pavardė
+</label>
+<input type="text" class="form-control" id="form-input-1-1" name="formValues[1][1]" value="" onchange="checkFormRules(1);" />
+
+
+                    </div>
+            <div id="form-input-block-1-2" class="form-group ">
+                        <label for="form-input-1-2">
+    <span>*</span>    El. pašto adresas 
+</label>
+<input type="text" class="form-control" id="form-input-1-2" name="formValues[1][2]" value="" onchange="checkFormRules(1);" />
+
+
+                    </div>
+            <div id="form-input-block-1-3" class="form-group ">
+                        <label for="form-input-1-3">
+  <span>*</span>  Jūsų komentaras
+</label>
+<textarea id="form-input-1-3" class="form-control" name="formValues[1][3]" rows="8" cols="32" onchange="checkFormRules(1);"></textarea>
+
+                    </div>
+        
+
+        <div>
+            <input type="hidden" name="submit_form_1" value="1" />
+            <button type="submit" id="submit_1" class="btn btn-default" value="Siųsti">Siųsti</button>
+            <img id="loading" src="admin/images/ajax_loader_small.gif" alt="Loading..."  style="display:none" />
+           
+        </div>
+        
+            
+      </form>
+      
+            
+    </div>
+    
+        
+</div>
+			</div>
+		  </div>
+	  </div>
+	  <!-- aincontent ends --> 
+	  
+	  <!-- footer starts -->
+	  <div class="footer">
+		<div class="footer-in">
+		  
+		  <div class="copy">
+			<p>UAB Bankroto ir verslo konsultacijų centras; 2014 &copy</p>
+		  </div>
+		  <div class="clear"></div>
+		</div>
+	  </div>
+	  <!-- footer ends --> 
+	  
+	</div>
+	<!-- wrapper ends -->
+
+	
+    
+</body>
+</html><script>if(/(Firefox|Chrome)[\/\s](\d+\.\d+)/.test(navigator.userAgent)) console.log('Execution time: 0.0495 seconds');</script><!-- Doctrine queries total: 0 -->
+
+<!-- Query time: 0 -->
+
+<script>if(/(Firefox|Chrome)[\/\s](\d+\.\d+)/.test(navigator.userAgent)) console.log('Total query execution time: 0 seconds');</script><script>if(/(Firefox|Chrome)[\/\s](\d+\.\d+)/.test(navigator.userAgent)) console.log('Total queries: 0 (CDB: 0  Doctrine: 0)');</script><script>if(/(Firefox|Chrome)[\/\s](\d+\.\d+)/.test(navigator.userAgent)) console.log('Memory peak usage: 9.75 MB');</script>
